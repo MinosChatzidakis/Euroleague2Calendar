@@ -1,0 +1,87 @@
+[
+  {
+    "matchup": "Olympiacos vs Milan",
+    "apiGameCode": 375,
+    "idInCalendar": "v9gc4iv2krerc01q6lgtoel8p0"
+  },
+  {
+    "matchup": "Hapoel Tel Aviv vs Olympiacos",
+    "apiGameCode": 363,
+    "idInCalendar": "g26lmsn5sd4oplrld421kqgtto"
+  },
+  {
+    "matchup": "Olympiacos vs Real",
+    "apiGameCode": 355,
+    "idInCalendar": "5sk34h58n86pfm1qle7ohflevs"
+  },
+  {
+    "matchup": "ASVEL vs Olympiacos",
+    "apiGameCode": 349,
+    "idInCalendar": "03mg7e018a9qje1lum0up69o1c"
+  },
+  {
+    "matchup": "Valencia vs Olympiacos",
+    "apiGameCode": 327,
+    "idInCalendar": "52b341p8i0o32ae58hfeocqcuk"
+  },
+  {
+    "matchup": "Olympiacos vs Baskonia",
+    "apiGameCode": 313,
+    "idInCalendar": "bbpgp65nmm24r6eusqhsn5p14o"
+  },
+  {
+    "matchup": "Olympiacos vs Fenerbahce",
+    "apiGameCode": 134,
+    "idInCalendar": "05ani5q1h2olmvod8chi97foo0"
+  },
+  {
+    "matchup": "Monaco vs Olympiacos",
+    "apiGameCode": 306,
+    "idInCalendar": "rd1kvaqg1tl3nitdqvcs0mp8o8"
+  },
+  {
+    "matchup": "Paris vs Olympiacos",
+    "apiGameCode": 334,
+    "idInCalendar": "kb6hiisc0oa33em1a8fv6488bk"
+  },
+  {
+    "matchup": "Olympiacos vs Panathinaikos",
+    "apiGameCode": 300,
+    "idInCalendar": "b0mii9efmi8e4926ocfs70kv0c"
+  },
+  {
+    "matchup": "Zalgiris vs Olympiacos",
+    "apiGameCode": 283,
+    "idInCalendar": "mivhq7gqt3gb45mr3f3a13pk3g"
+  },
+  {
+    "matchup": "Olympiacos vs Crvena Zvezda",
+    "apiGameCode": 272,
+    "idInCalendar": "i5gqeskvvc9ltridlb7h0mjees"
+  },
+  {
+    "matchup": "Olympiacos vs Virtus",
+    "apiGameCode": 270,
+    "idInCalendar": "7995aaskshn5trpg9p3v6hkum0"
+  },
+  {
+    "matchup": "Dubai vs Olympiacos",
+    "apiGameCode": 253,
+    "idInCalendar": "ab0v97rudsmis5d2bq5ijdpqss"
+  },
+  {
+    "matchup": "Olympiacos vs Barcelona",
+    "apiGameCode": 244,
+    "idInCalendar": "3v3q3pjc54rvbl5iujr43s8o84"
+  },
+  {
+    "matchup": "Anadolu Efes vs Olympiacos",
+    "apiGameCode": 231,
+    "idInCalendar": "kesm5gqea9tdpdqu4vr5v5mn5s"
+  },
+  {
+    "matchup": "Olympiacos vs Maccabi",
+    "apiGameCode": 224,
+    "idInCalendar": "fttjfvo1jlqtbd95ejqgmdqqhg"
+  }
+]
