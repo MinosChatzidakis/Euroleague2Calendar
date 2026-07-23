@@ -2,3 +2,5 @@
  -- One or more teams can be selected
  -- For every match the final score gets added to the description of the event at the end of the match
  -- In the description of each upcoming match you can find the date, round and result of every time the two teams have played against each other that season
+
+\n **OAuth 2.0 was used
