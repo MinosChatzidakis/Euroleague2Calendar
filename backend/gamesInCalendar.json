@@ -1,87 +1,192 @@
 [
   {
-    "matchup": "Olympiacos vs Milan",
-    "apiGameCode": 375,
-    "idInCalendar": "v9gc4iv2krerc01q6lgtoel8p0"
+    "matchup": "Olympiacos vs Valencia",
+    "apiGameCode": "e2fba634-00b9-5334-ae39-dc98cd53431b",
+    "idInCalendar": "674iielh3vsr48huqrk1bjbrfs"
   },
   {
-    "matchup": "Hapoel Tel Aviv vs Olympiacos",
-    "apiGameCode": 363,
-    "idInCalendar": "g26lmsn5sd4oplrld421kqgtto"
+    "matchup": "Olympiacos vs Zalgiris",
+    "apiGameCode": "3690493b-ce83-59d9-88e1-1628f03776c2",
+    "idInCalendar": "2kuln119lctgid7h9si1cef644"
   },
   {
-    "matchup": "Olympiacos vs Real",
-    "apiGameCode": 355,
-    "idInCalendar": "5sk34h58n86pfm1qle7ohflevs"
-  },
-  {
-    "matchup": "ASVEL vs Olympiacos",
-    "apiGameCode": 349,
-    "idInCalendar": "03mg7e018a9qje1lum0up69o1c"
-  },
-  {
-    "matchup": "Valencia vs Olympiacos",
-    "apiGameCode": 327,
-    "idInCalendar": "52b341p8i0o32ae58hfeocqcuk"
-  },
-  {
-    "matchup": "Olympiacos vs Baskonia",
-    "apiGameCode": 313,
-    "idInCalendar": "bbpgp65nmm24r6eusqhsn5p14o"
-  },
-  {
-    "matchup": "Olympiacos vs Fenerbahce",
-    "apiGameCode": 134,
-    "idInCalendar": "05ani5q1h2olmvod8chi97foo0"
-  },
-  {
-    "matchup": "Monaco vs Olympiacos",
-    "apiGameCode": 306,
-    "idInCalendar": "rd1kvaqg1tl3nitdqvcs0mp8o8"
-  },
-  {
-    "matchup": "Paris vs Olympiacos",
-    "apiGameCode": 334,
-    "idInCalendar": "kb6hiisc0oa33em1a8fv6488bk"
-  },
-  {
-    "matchup": "Olympiacos vs Panathinaikos",
-    "apiGameCode": 300,
-    "idInCalendar": "b0mii9efmi8e4926ocfs70kv0c"
-  },
-  {
-    "matchup": "Zalgiris vs Olympiacos",
-    "apiGameCode": 283,
-    "idInCalendar": "mivhq7gqt3gb45mr3f3a13pk3g"
-  },
-  {
-    "matchup": "Olympiacos vs Crvena Zvezda",
-    "apiGameCode": 272,
-    "idInCalendar": "i5gqeskvvc9ltridlb7h0mjees"
-  },
-  {
-    "matchup": "Olympiacos vs Virtus",
-    "apiGameCode": 270,
-    "idInCalendar": "7995aaskshn5trpg9p3v6hkum0"
-  },
-  {
-    "matchup": "Dubai vs Olympiacos",
-    "apiGameCode": 253,
-    "idInCalendar": "ab0v97rudsmis5d2bq5ijdpqss"
-  },
-  {
-    "matchup": "Olympiacos vs Barcelona",
-    "apiGameCode": 244,
-    "idInCalendar": "3v3q3pjc54rvbl5iujr43s8o84"
+    "matchup": "Fenerbahce vs Olympiacos",
+    "apiGameCode": "f3176a7b-726e-5ed4-8459-8e90d17e6d07",
+    "idInCalendar": "qrkv4ifqebfll7f64sbeiql9o4"
   },
   {
     "matchup": "Anadolu Efes vs Olympiacos",
-    "apiGameCode": 231,
-    "idInCalendar": "kesm5gqea9tdpdqu4vr5v5mn5s"
+    "apiGameCode": "d371d378-8b03-5d24-9ca6-ddcf77cbeb82",
+    "idInCalendar": "1qtab3qjkb5c40bffkc6vfoe3o"
+  },
+  {
+    "matchup": "Olympiacos vs Virtus Bologna",
+    "apiGameCode": "679cfccd-e482-51fc-bdac-5123259caf37",
+    "idInCalendar": "b00viqus67ptss908pu89qv31c"
+  },
+  {
+    "matchup": "Olympiacos vs FC Barcelona",
+    "apiGameCode": "12420901-6347-5055-a981-efdeca92d357",
+    "idInCalendar": "kn126agig31n4vslgn1refkoco"
+  },
+  {
+    "matchup": "Crvena Zvezda vs Olympiacos",
+    "apiGameCode": "0dd4b897-461d-5b14-bdcc-b7f5c3917ac3",
+    "idInCalendar": "08tidkfl8d3fboh3nhrlpqh4es"
+  },
+  {
+    "matchup": "Olympiacos vs Besiktas",
+    "apiGameCode": "f5bd4ba7-0c69-5742-b713-4cae337a7a05",
+    "idInCalendar": "rp20r0mruim2c0gna1qidv3b7c"
+  },
+  {
+    "matchup": "Milan vs Olympiacos",
+    "apiGameCode": "f5fe87b4-047e-5e53-8414-fa2ec4dd9012",
+    "idInCalendar": "ic99dqeamme7sihs1173tcnah4"
+  },
+  {
+    "matchup": "Dubai vs Olympiacos",
+    "apiGameCode": "177a5e42-d386-55c8-ac6d-aeb66be56d87",
+    "idInCalendar": "rrshfs8f7p7nobck9kbn8soj54"
+  },
+  {
+    "matchup": "Olympiacos vs Panathinaikos",
+    "apiGameCode": "25135623-fbae-5e37-ac2e-5adad04d1b5f",
+    "idInCalendar": "3r1qkodrvf5i7coqbr5j407rl8"
+  },
+  {
+    "matchup": "Olympiacos vs Bayern Munich",
+    "apiGameCode": "a29c201a-d6ea-5706-a56a-4b3e108fd60a",
+    "idInCalendar": "8gsdsi2eeqmre1drd68ur40rqk"
+  },
+  {
+    "matchup": "Hapoel TLV vs Olympiacos",
+    "apiGameCode": "30ff654d-dc3a-54c7-9be1-f1e741050d24",
+    "idInCalendar": "im8v3i16jfma7cqj9kuovol7oc"
   },
   {
     "matchup": "Olympiacos vs Maccabi",
-    "apiGameCode": 224,
-    "idInCalendar": "fttjfvo1jlqtbd95ejqgmdqqhg"
+    "apiGameCode": "3ebeef29-6cd6-554f-aa5c-1339b32ca941",
+    "idInCalendar": "6e3jdjjmfcf55ei07trgp48tso"
+  },
+  {
+    "matchup": "Partizan vs Olympiacos",
+    "apiGameCode": "78cb0ee7-7a51-55fb-93eb-edd31d669df7",
+    "idInCalendar": "abjqfghaepu013qjishq8lreks"
+  },
+  {
+    "matchup": "Olympiacos vs Paris",
+    "apiGameCode": "8e76cecd-95f7-589a-a139-eb6a4b97ea6a",
+    "idInCalendar": "0f3pp0r8f9vjtu98pgql4p1sbg"
+  },
+  {
+    "matchup": "Olympiacos vs Baskonia",
+    "apiGameCode": "26d64e35-1f50-598b-85f9-0e6a234e3dd8",
+    "idInCalendar": "jisshr62k4b68nicegbinln8f0"
+  },
+  {
+    "matchup": "Real Madrid vs Olympiacos",
+    "apiGameCode": "5a1f7ae5-ca81-57f5-99bf-25f02b9e841c",
+    "idInCalendar": "eu2f6hntrbtk6kav68np255lfk"
+  },
+  {
+    "matchup": "LDLC ASVEL vs Olympiacos",
+    "apiGameCode": "bbe2d80c-c012-5978-8af6-144c9bed2b07",
+    "idInCalendar": "1kqdqe4khj9rd6uf31a7huj974"
+  },
+  {
+    "matchup": "Bayern Munich vs Olympiacos",
+    "apiGameCode": "1631466d-bf9e-5895-8943-42c998b64162",
+    "idInCalendar": "rduakboffomgfjpifel71vs624"
+  },
+  {
+    "matchup": "Olympiacos vs Partizan",
+    "apiGameCode": "f984075e-ca95-5427-a3aa-2ed6d68bee49",
+    "idInCalendar": "h17s332qeuo8r453td30v7c26o"
+  },
+  {
+    "matchup": "Paris vs Olympiacos",
+    "apiGameCode": "683b5c23-65a1-5c3d-9d56-b46e2df6b1ce",
+    "idInCalendar": "2kkh31dcb50cadui4qc0avbr7g"
+  },
+  {
+    "matchup": "Panathinaikos vs Olympiacos",
+    "apiGameCode": "778f3e86-e95e-51df-b2c4-28b08c608d54",
+    "idInCalendar": "uhgfblgk2bketjomhd2hi5b1f4"
+  },
+  {
+    "matchup": "Olympiacos vs LDLC ASVEL",
+    "apiGameCode": "cd98f484-7366-51a0-b18c-797f294a0199",
+    "idInCalendar": "jm6l0m4igjvok24c2157o2uivo"
+  },
+  {
+    "matchup": "Olympiacos vs Hapoel TLV",
+    "apiGameCode": "8d192beb-b88e-5b6d-8b6b-defd1c6629f3",
+    "idInCalendar": "r050urrgo75fvvd3js6ptvlaog"
+  },
+  {
+    "matchup": "Olympiacos vs Real Madrid",
+    "apiGameCode": "fab4bbb8-d194-5ee7-af4e-978581a83b56",
+    "idInCalendar": "kcs4041c20s5c5p0q5gpbclm7s"
+  },
+  {
+    "matchup": "Maccabi vs Olympiacos",
+    "apiGameCode": "0eb026ea-440b-580e-8f6e-6052cf23134a",
+    "idInCalendar": "f9rrh0eelg3hviu9ns8bgbd144"
+  },
+  {
+    "matchup": "Olympiacos vs Dubai",
+    "apiGameCode": "1046e9f1-cfd4-5db4-b3aa-8035c50aa896",
+    "idInCalendar": "rsup8ck2crbdtf6p6pco7pr4tg"
+  },
+  {
+    "matchup": "Olympiacos vs Crvena Zvezda",
+    "apiGameCode": "14c6e12f-8c89-5804-aa85-f251539b3e0f",
+    "idInCalendar": "ejtvap7dl9fmhmku8rhicde1r0"
+  },
+  {
+    "matchup": "Olympiacos vs Milan",
+    "apiGameCode": "d3e8894b-a718-550d-8c2d-c6fd7ee1c214",
+    "idInCalendar": "k180kgcsaoc02pvo773l4m1fl4"
+  },
+  {
+    "matchup": "Besiktas vs Olympiacos",
+    "apiGameCode": "b6f378e9-bafb-5bc1-98a1-ecd0d8f64824",
+    "idInCalendar": "gnv0l6k914rfcdg3ceitff3p0c"
+  },
+  {
+    "matchup": "Olympiacos vs Fenerbahce",
+    "apiGameCode": "8d29e3ae-7005-5f5f-b72c-9983a807bcfc",
+    "idInCalendar": "a44k1uhvadikudfnvta1s7ng0s"
+  },
+  {
+    "matchup": "FC Barcelona vs Olympiacos",
+    "apiGameCode": "2bd91480-f810-57fe-bb34-4cfc89552e2c",
+    "idInCalendar": "m8e4ogucr5q402n544u5llmirc"
+  },
+  {
+    "matchup": "Valencia vs Olympiacos",
+    "apiGameCode": "bdfbba72-4575-54a7-a622-e52de3de2ee6",
+    "idInCalendar": "q6fia93bb6fd9l4um6r1nsgpuk"
+  },
+  {
+    "matchup": "Olympiacos vs Anadolu Efes",
+    "apiGameCode": "67bf5c34-29ca-5e7e-a573-25db67c790a4",
+    "idInCalendar": "93dsab7nq5ss21jlfronasgep4"
+  },
+  {
+    "matchup": "Virtus Bologna vs Olympiacos",
+    "apiGameCode": "3ccc93ab-192e-5c59-add3-6b6d13ad120d",
+    "idInCalendar": "mrpks8229bamqk5la69u07tm00"
+  },
+  {
+    "matchup": "Zalgiris vs Olympiacos",
+    "apiGameCode": "b160b588-4e63-5ba2-98ba-42031d6e28ec",
+    "idInCalendar": "02qu661nq6e466ebo3dsti0ga4"
+  },
+  {
+    "matchup": "Baskonia vs Olympiacos",
+    "apiGameCode": "89574e06-6180-5848-ac54-aba6016f7b65",
+    "idInCalendar": "7k2vqe2npeil1nc0k467tjf8r8"
   }
 ]

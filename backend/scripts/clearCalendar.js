@@ -2,6 +2,7 @@ const { getAllEvents, deleteEvent } = require("../utils/CalendarUtils");
 const { teamsToFollow } = require("../utils/generalVariables");
 const fs = require("fs");
 
+//this deletes every match every with no regard to season
 const clear = async () => {
   const allEvents = await getAllEvents();
   let deletedEvents = 0;

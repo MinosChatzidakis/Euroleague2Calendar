@@ -27,21 +27,21 @@ const MINUTES_PER_HOUR = 60;
   matchesToBePlayed = matchesToFollow.filter((match) => !match.played);
 
   for (const match of matchesToBePlayed) {
-    const apiGameCode = match.gameCode;
-    const homeTeam = match.local.club.abbreviatedName;
-    const awayTeam = match.road.club.abbreviatedName;
+    const apiGameCode = match.id;
+    const homeTeam = match.home.abbreviatedName;
+    const awayTeam = match.away.abbreviatedName;
     const location = match.venue.name;
-    const startDate = new Date(match.utcDate);
+    const startDate = new Date(match.date);
     const endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
     const matchup = constructMatchupId(homeTeam, awayTeam);
-    const roundAlias = match.roundAlias;
+    const roundAlias = match.round.name;
     const phase = match.phaseType.name;
     const followedTeam = teamsToFollow.find(
       (t) =>
         t.teamName.includes(homeTeam) ||
         t.teamName.includes(awayTeam) ||
         awayTeam.includes(t.teamName) ||
-        homeTeam.includes(t.teamName)
+        homeTeam.includes(t.teamName),
     );
     const isPlayingAtHome =
       homeTeam.includes(followedTeam.teamName) ||
@@ -49,14 +49,14 @@ const MINUTES_PER_HOUR = 60;
     const previousMatch = getPreviousMatch(
       isPlayingAtHome ? awayTeam : homeTeam,
       match.round,
-      matchesToFollow
+      matchesToFollow,
     );
     const notes = !previousMatch
       ? `${phase}, ${roundAlias}.`
       : `${phase}, ${roundAlias}.\nPlayed in ${previousMatch.round} on
           ${previousMatch.date.split("T")[0]}. \nResult: ${
-          previousMatch.score
-        }, ${previousMatch?.winner}`;
+            previousMatch.score
+          }, ${previousMatch?.winner}`;
 
     const gameToAdd = {
       summary: matchup,
@@ -76,6 +76,7 @@ const MINUTES_PER_HOUR = 60;
     if (!gameInRegistry) {
       //add event to calendar
       const eventObject = await addToCalendar(gameToAdd);
+      console.log(eventObject);
       const newEntry = {
         matchup,
         apiGameCode,
@@ -84,14 +85,14 @@ const MINUTES_PER_HOUR = 60;
       addGameToRegistry(newEntry);
     } else {
       const matchInCalendar = await getFromCalendar(
-        gameInRegistry.idInCalendar
+        gameInRegistry?.idInCalendar,
       );
 
       if (matchInCalendar) {
         const changesDetectedForEvent = [];
         startDate.toISOString() !== matchInCalendar.start.dateTime &&
           changesDetectedForEvent.push(
-            `New start time: ${startDate.toISOString()}\n`
+            `New start time: ${startDate.toISOString()}\n`,
           );
         matchup !== matchInCalendar.summary &&
           changesDetectedForEvent.push(`New matchup: ${matchup}\n`);
@@ -103,7 +104,7 @@ const MINUTES_PER_HOUR = 60;
         if (updateFlag) {
           const updatedEvent = await updateEvent(
             gameInRegistry.idInCalendar,
-            gameToAdd
+            gameToAdd,
           );
           updateGameInRegistry(matchup, {
             matchup,
@@ -118,6 +119,6 @@ const MINUTES_PER_HOUR = 60;
     await new Promise((r) => setTimeout(r, 100));
   }
   console.log(
-    `Updated ${numOfUpdatedEvents} events on ${new Date().toLocaleString()}.`
+    `Updated ${numOfUpdatedEvents} events on ${new Date().toLocaleString()}.`,
   );
 })();

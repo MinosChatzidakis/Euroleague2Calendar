@@ -2,7 +2,7 @@ const { getAllMatches, getSpecificMatch } = require("./MatchesSelector.model");
 
 const getMatchesToFollow = async (teamsToFollow) => {
   const allMatches = await getAllMatches();
-  const matchesToFollow = allMatches.filter((match) => {
+  /* const matchesToFollow = allMatches.filter((match) => {
     const homeTeamName = match.local.club.abbreviatedName;
     const awayTeamName = match.road.club.abbreviatedName;
     return teamsToFollow.some(
@@ -12,8 +12,9 @@ const getMatchesToFollow = async (teamsToFollow) => {
         homeTeamName.includes(team.teamName) ||
         awayTeamName.includes(team.teamName),
     );
-  });
-  return matchesToFollow;
+  }); 
+  return matchesToFollow;*/
+  return allMatches;
 };
 
 const getPreviousMatch = (opp, round, matchesToFollow) => {
@@ -26,11 +27,13 @@ const getPreviousMatch = (opp, round, matchesToFollow) => {
     away = match.road.club.abbreviatedName;
     return home === opp || away === opp;
   });
-  const homeScore = foundMatch?.local?.score;
-  const awayScore = foundMatch?.road?.score;
+  if (!foundMatch) return null;
+  const homeScore = foundMatch?.home?.score;
+  const awayScore = foundMatch?.away?.score;
+
   return {
     date: foundMatch?.date?.toString(),
-    round: foundMatch?.roundAlias,
+    round: foundMatch?.round?.alias,
     score: `${homeScore}-${awayScore}`,
     winner: homeScore > awayScore ? home : away,
   };
